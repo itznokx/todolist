@@ -1,6 +1,7 @@
 body {
   background-color: white;
   font-family: 'Arial';
+  margin: 50px;
 }
 #mainHeader{
 
@@ -10,8 +11,7 @@ body {
   background-color: #111;
   border-radius: 4px;
   text-align: left;
-  padding: 5px 20px;
-  padding-bottom: 20px;
+  padding: 2px 20px 20px 20px;
   margin: 20px;
 }
 .span_n {
@@ -20,10 +20,12 @@ body {
 }
 .span_title {
   font-family: inherit;
+  font-size: 32px;
   color: #febe01;
 }
 .list_subtitle {
   font-family: inherit;
+  font-size: 24px;
   color: #b2b2b2;
 }
 .list_button {
@@ -31,6 +33,7 @@ body {
   background-color: #febe01;
   color: #332200;
   font-family: inherit;
+  font-size: 16px;
   border-radius: 5px;
-  border-style: none;
+  text-decoration: none;
 }
