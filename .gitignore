@@ -2,4 +2,4 @@ todo-list/node_modules/
 todo-list/
 
 #editor
-.vscode/
+.vscode/*
