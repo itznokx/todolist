@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+  font-family: 'Arial';
+}
+#mainHeader{
+
+}
+.list_div {
+  display: block;
+  background-color: #111;
+  border-radius: 4px;
+  text-align: left;
+  padding: 5px 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+}
+.span_n {
+  font-family: inherit;
+  color: rgba(255,255,255,1.0);
+}
+.span_title {
+  font-family: inherit;
+  color: #febe01;
+}
+.list_subtitle {
+  font-family: inherit;
+  color: #b2b2b2;
+}
+.list_button {
+  padding: 5px 10px;
+  background-color: #febe01;
+  color: #332200;
+  font-family: inherit;
+  border-radius: 5px;
+  border-style: none;
+}
