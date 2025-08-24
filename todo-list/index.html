@@ -2,12 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link href="/src/App.css" rel="stylesheet" />
+    <link href="/src/index.css" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>ToDo List</title>
   </head>
   <body id="root">
-    <script type="module" src="/src/main.jsx"></script>
+    <nav id-="mainHeader">
+      <img src="vite.svg" alt="Header link">
+      <button>Home</button>
+      <button>My Lists</button>
+      <button>Settings</button>
+    </nav>
+    <div id = "body_div">
+      <div id = "left_body_collumn">
+
+      </div>
+      <h1 style="text-align: center;"> Listas e Listas</h1>
+      <div class="list_div">
+        <div class="list_item">
+          <h1 class="list_title"><span class="span_n">First List:</span> <span class="span_title">titulo</span></h1>
+          <h2 class="list_subtitle">little description</h2>
+        </div>
+        <a class="list_button" href="/">look</a>
+      </div>
+      <div class="list_div">
+        <div class="list_item">
+          <h1 class="list_title"><span class="span_n">Second List:</span> <span class="span_title">titulo</span></h1>
+          <h2 class="list_subtitle">little description</h2>
+        </div>
+        <a class="list_button" href="/">look</a>
+      </div>
+      <div id = "right_body_collumn">
+
+      </div>
+    </div>
+    <footer id="main_footer"></footer>
+      <!--<script type="module" src="/src/main.jsx"></script>!-->
   </body>
 </html>
